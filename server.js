@@ -12,3 +12,4 @@ app.use(morgan("dev"));
 app.listen(process.env.PORT || 6001, () => {
   console.log(`Listening to portt ${process.env.PORT}...`);
 });
+
