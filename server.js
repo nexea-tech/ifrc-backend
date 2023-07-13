@@ -40,7 +40,7 @@ app.use(
 
 // Default homepage
 app.get("/", (req, res) => {
-  res.json({ page: "Homepage" });
+  res.json({ page: "Home" });
 });
 
 connection()
